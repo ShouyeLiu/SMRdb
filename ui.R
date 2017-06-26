@@ -22,7 +22,7 @@ shinyUI(fluidPage(
   
   # display the title for the page
   
-  fluidRow(h1(strong(img(src = "CNSG-logo-11.png", height = 120, width = 300),"     SMR Results Database",img(src = "qbi_logo.png", height = 110, width = 260,align="right")))),
+  fluidRow(h1(strong(img(src = "uq_pctg.png", height = 75, width = 360),"     SMR Results Database",img(src = "uq_imb_logo.png", height = 75, width = 270,align="right")))),
   
   sidebarLayout(
       
@@ -142,7 +142,7 @@ shinyUI(fluidPage(
                            p(strong("SMR method and software tool:")),
                            p("Zhu Z, Zhang F, Bakshi A, Robinson MR, Powell J, Montgomery G, Goddard ME, Wray NR, Visscher PM, Yang J (2016)
                              Integration of summary data from GWAS and eQTL studies predict complex trait gene targets.",
-                             a(href="http://www.nature.com/ng/journa;/vaop/ncurrent/full/ng.3538.html", "Nat Genet. 2016 May;48(5):481-7. doi:10.1038/ng:3538", target="_blank")),
+                             a(href="http://www.nature.com/ng/journa;/vaop/ncurrent/full/ng.3538.html", "Nature Genetics, 48:481-7.", target="_blank")),
                            p(strong("SMR Database:")),
                            p("Jennifer M Whitehead Pavlides, Zhihong Zhu, Jacob Gratten, Allan F. McRae, Naomi R. Wray and Jian Yang (2016)
                               Predicting gene targets from integrative analysis of summary data from GWAS and eQTL studies for 28 human complex traits.",
@@ -150,7 +150,7 @@ shinyUI(fluidPage(
                            
                         wellPanel(
                           p("The SMRdb query tool was developed by Jennifer Whitehead Pavlides. 
-                            Please direct all queries or issues to Jennifer Whitehead Pavlides (j.pavlides@uq.edu.au) or Jian Yang (jian.yang@uq.edu.au)")
+                            Please direct all queries or issues to Jennifer Whitehead Pavlides (j.pavlides@uq.edu.au) or ", a(href="https://scholar.google.com.au/citations?hl=en&user=aLuqQs8AAAAJ&view_op=list_works&sortby=pubdate", "Jian Yang", target="_blank"), " (jian.yang@uq.edu.au)")
                         ))), width = 9
 
            
